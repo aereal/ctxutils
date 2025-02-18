@@ -61,4 +61,5 @@ jobs:
             -f golangci-lint \
             -filter-mode nofilter \
             -reporter github-pr-check \
+            -fail-level error \
             < lint-stdout.txt
